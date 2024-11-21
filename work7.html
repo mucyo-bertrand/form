@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bertrand</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+    <form action="work.php" method="post">
+    <fieldset class="form">
+        
+        <div class="div">
+            <h1>STUDENT ACCOUNT</h1>
+        <h2>STUDENT FORM</h2>
+        STUDENT_ID
+        <input type="hidden" value="No_174"><br>
+        SCHOOL_ID
+        <input type="" value="No_174" disabled readonly><br>
+            <label for="first name"><i>FIRST NAME</i></label><br>
+            <input type="text" name="f_name" class="f_name" placeholder="Enter Your First Name" maxlength="50" required autofocus><br>
+            <label for="first name"><i>SECOND NAME</i></label><br>
+            <input type="text" name="s_name" class="s_name" placeholder="Enter Your Second Name" maxlength="50" required autofocus><br>
+            <label for="first name" class="class"><i>CLASS</i></label><br>
+            <input type="checkbox" name="year" class="yearone" value="Year One" checked>Year One<br>
+            <input type="checkbox" name="year" class="yeartwo" value="Year Two">Year Two<br>
+            <input type="checkbox" name="year" class="yearthree" value="Year Three">Year Three<br>
+            <label for="first name" class="gender"><i>GENDER</i></label><br>
+            <input type="radio" name="g" class="m" value="MALE" required autofocus >MALE<br>
+            <input type="radio" name="g" class="f" value="FEMALE" required autofocus >FEMALE<br>
+            <label for="first name"><i>EMAIL</i></label><br>
+            <input type="text" name="email" class="email" placeholder="Enter Your Email" required autofocus><br>
+            <label for="first name"><i>ENTER YOUR PASSWORD</i></label><br>
+            <input type="password" name="pass1" class="pass2" placeholder="Enter Your Password" maxlength="10" required autofocus><br>
+            <label for="first name"><i>CONFIRM YOUR PASSWORD</i></label><br>
+            <input type="password" name="pass3" class="pass3" placeholder="Confirm Your Password" maxlength="10" required autofocus><br>
+            <i>DATE OF BIRTH</i><BR>
+                <input type="date" name="date" class="pass3" placeholder="Confirm Your Password" required autofocus><br>
+            <i>COUNTRY</i>  
+                <select multiple size="3" name="count">
+                <option>RWANDA</option>
+                <option>BURUNDI</option>
+                <option>KENYA</option>    
+                <option>UGANDA</option>
+                <option>ETHIOPIA</option>
+                <option>SOMALIA</option>
+                <option>DR CONGO</option>
+                <option>TANZANIA</option>
+                <option>EGYPT</option>
+            </select><BR>
+               
+            <i>ENTER TIME OF APPLICATION</i>
+            <input type="time" name="app" class="pass3" placeholder="Confirm Your Password" required autofocus><br>
+            <i>CHOOSE A PHOTO FOR YOUR PROFILE</i>
+            <input type="file" name="pass3" class="pass3"  required autofocus><br>
+            <i>SEARCH FOR YOUR INTERESTS</i>
+            <input type="search" name="pass3" class="pass3" style="width: 200px; height: 40px;"><br>
+            <i>ENTER  YOUR MARKS</i>
+            <input type="number" name="marks" class="pass3" max="100" min="0" required autofocus><br>
+            <i>MARKS IN CAT /%</i><BR>
+            <input type="range" max="100" min="0" step="5" value="0" required autofocus><br>
+            <i>WHAT IS YOUR FAVOURITE COLOR</i>
+            <input type="color" name="color" class="pass3"><br>
+
+            <textarea name="com" id="com" placeholder="enter a comment please" style="width: 300px; height: 80px;"></textarea><br>
+            <input type="reset" class="reset">
+            <input type="submit" class="submit"><br>
+        </form>
+        </div>
+        </fieldset>
+    
+
+    
+    </body>
+</html>
