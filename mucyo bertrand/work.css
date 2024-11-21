@@ -1,0 +1,69 @@
+*{
+    margin-top: auto;
+    padding: 5px;
+}
+body{
+    background: linear-gradient(to right,blue,rgb(168, 3, 133),red,goldenrod);
+    color: rgb(10, 14, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    background-color: rgba(109, 190, 2 ,0.2);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 1200px;
+    border-radius: 10%;
+}
+div{
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.submit,.reset{
+    background-color: goldenrod;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+}
+.submit:hover{
+    background-color: hsl(136,50%,50%);
+    margin-left: 65px;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    animation-name: pop1;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.f_name,.s_name,.email,.pass2,.pass3{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: black;
+    font-weight: 1000px;
+}
+.class,.gender{
+    margin-bottom: 5px;
+    color: hsl(45,50%,50%);
+    font-size: 25px;
+}
+@keyframes pop {
+    0% {
+      transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1.5);
+}
+}
