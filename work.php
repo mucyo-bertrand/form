@@ -8,11 +8,12 @@ $date=$_POST['date'];
 $count=$_POST['count'];
 $app=$_POST['app'];
 $marks=$_POST['marks'];
+$rate=$_POST['range'];
 $color=$_POST['color'];
 echo ("
 <table border=1 solid f>
 <tr>
-<th>first name</th>
+<th>First Name</th>
 <th>second name</th>
 <th>year</th>
 <th>gender</th>
@@ -21,6 +22,7 @@ echo ("
 <th>country</th>
 <th>application time</th>
 <th>marks</th>
+<th>RATE US</th>
 <th>color</th>
 </tr>
 <tr>
@@ -33,6 +35,7 @@ echo ("
     <td> $count </td>
     <td> $app </td>
     <td> $marks </td>
+    <td> $rate </td>
     <td> $color </td>
 </tr>
 </table>
